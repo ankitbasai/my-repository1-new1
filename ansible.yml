@@ -1,0 +1,9 @@
+--- 
+      - name: testing ansible
+        hosts: all
+        tasks:
+               - name: create a file
+                 file: 
+                      path: /root/file100
+                      state: touch
+    
